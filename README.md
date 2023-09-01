@@ -18,45 +18,47 @@ This application is developed using java with maven help with clean ui/ux with b
 
 
 # SQL Tables 
-1. admins table
 
-2. student table
+1. Database name Student
 
-3. results table
+2. admins table
+
+3. student table
+
+4. results table
+
 
 ## Admins Table
-+-----------+-------------+------+-----+---------+----------------+
-| Field     | Type        | Null | Key | Default | Extra          |
-+-----------+-------------+------+-----+---------+----------------+
-| id        | int         | NO   | PRI | NULL    | auto_increment |
-| fullname  | varchar(30) | NO   |     | NULL    |                |
-| email     | varchar(30) | NO   |     | NULL    |                |
-| passwords | varchar(30) | NO   |     | NULL    |                |
-+-----------+-------------+------+-----+---------+----------------+
+CREATE TABLE admins (
+    id INT NOT NULL AUTO_INCREMENT,
+    fullname VARCHAR(30) NOT NULL,
+    email VARCHAR(30) NOT NULL,
+    passwords VARCHAR(30) NOT NULL,
+    PRIMARY KEY (id)
+);
+
    
 ## student table
-+----------+-------------+------+-----+---------+----------------+
-| Field    | Type        | Null | Key | Default | Extra          |
-+----------+-------------+------+-----+---------+----------------+
-| id       | int         | NO   | PRI | NULL    | auto_increment |
-| roll     | int         | NO   | UNI | NULL    |                |
-| fullname | varchar(30) | NO   |     | NULL    |                |
-| branch   | varchar(15) | NO   |     | NULL    |                |
-| email    | varchar(30) | YES  |     | NULL    |                |
-+----------+-------------+------+-----+---------+----------------+
+CREATE TABLE student (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    roll INT NOT NULL UNIQUE,
+    fullname VARCHAR(30) NOT NULL,
+    branch VARCHAR(15) NOT NULL,
+    email VARCHAR(30)
+);
+
 
 ## results table
 
-+----------+-------------+------+-----+---------+-------+
-| Field    | Type        | Null | Key | Default | Extra |
-+----------+-------------+------+-----+---------+-------+
-| roll     | int         | NO   | MUL | NULL    |       |
-| subject1 | int         | NO   |     | NULL    |       |
-| subject2 | int         | NO   |     | NULL    |       |
-| subject3 | int         | NO   |     | NULL    |       |
-| total    | int         | NO   |     | NULL    |       |
-| status   | varchar(10) | NO   |     | NULL    |       |
-+----------+-------------+------+-----+---------+-------+
+CREATE TABLE results (
+    roll INT NOT NULL,
+    subject1 INT NOT NULL,
+    subject2 INT NOT NULL,
+    subject3 INT NOT NULL,
+    total INT NOT NULL,
+    status VARCHAR(10) NOT NULL,
+    PRIMARY KEY (roll)
+);
 
 
 ## Clone Project 
