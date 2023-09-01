@@ -3,13 +3,17 @@ This application is developed using java with maven help with clean ui/ux with b
 
 
 # features:
-Admin and Student Access.
-Preventing the direct Access of Web Pages.
-Session Management.
-Uploading Students Results.
-Searching the Student Result using Roll number.
+1.Admin and Student Access.
+
+2.Preventing the direct Access of Web Pages.
+
+3.Session Management.
+
+4.Uploading Students Results.
+
+5.Searching the Student Result using Roll number.
 
 # Author
-Royal-Code-Master.
+<a href="https://github.com/Royal-Code-Master/">Royal-Code-Master</a>
 
 
