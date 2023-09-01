@@ -70,12 +70,12 @@ gh repo clone Royal-Code-Master/College-Management-System
 I want to show the project results using images.
 
 
-This is Home Page
+# This is Home Page
 
 ![Screenshot (83)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/86e63782-bc1d-4981-92e4-5120a15945dc)
 
 
-Admin Pages
+# Admin Pages
 
 ![Screenshot (84)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/e7985622-54d8-45e3-a8b2-dc74745682bf)
 
@@ -94,7 +94,8 @@ Admin Pages
 
 ![Screenshot (89)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/fe268150-f7ec-4c53-9190-2cb839e21795)
 
-Student Pages
+
+# Student Pages
 
 ![Screenshot (90)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/1b343998-6843-4a98-a350-747e5f7afc22)
 
