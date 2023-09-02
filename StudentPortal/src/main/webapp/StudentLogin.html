@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<meta charset="ISO-8859-1">
+<title>Student Login Portal</title>
+</head>
+
+<style>
+	
+	#form-page{
+		box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+		max-width: 1000px;
+	}
+	
+	#student-login-img{
+		height: 400px;
+		width: 350px;
+		
+	}
+	label{
+		text-align: left;
+		font-weight: 700;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		padding: 10px;
+	}
+	#title-login{
+		font-weight: bold;
+		font-size: 33px;
+		
+	}
+	small{
+		font-size: 10px !important;
+		
+	}
+</style>
+
+<body>
+	
+	<div id="student">
+		<br>
+		<div class="container mb-3">
+			<center>
+				<div class="row mt-5 pt-4 pb-1 p-3"  id="form-page">
+					<p class="text text-center" id="title-login"> <em style="color: #6C63FF;">Student</em> login</p>
+						<div class="col-md-6">
+							<img src="./Images/undraw_online_ad_re_ol62.svg" alt="student login" class="img-fluid" id="student-login-img">
+						</div>
+					
+				    	<div class="col-md-6">
+					    	<form class="form-control mt-5 p-2" method="post" action="student_login.jsp">
+								<i class="fa fa-user-circle-o fa-3x p-2" style="color: #6C63FF;"></i>
+								<div class="row form-control mt-2">
+									<label>Student Roll Number</label>
+									<input type="text" name="roll" class="form-control" placeholder="enter student roll number" required>
+								</div>
+								<div class="row form-control mt-3">
+									<label>Email</label>
+									<input type="email" class="form-control" name="email" placeholder="email address" required>
+								</div>
+								<br>
+								<button type="submit" class="btn form-control mb-2 text tex-center text-light" style="background-color: #6C63FF; font-weight: bolder;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Sign In</button>
+						   </form>
+					    </div>
+					    <small class="text tex-center text-dark mt-5 mb-1"><strong>Design and Developed by Eswar</strong></small>				
+					</div>
+			</center>	
+		</div>
+	</div>
+	
+</body>
+</html>
