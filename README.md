@@ -104,11 +104,9 @@ I want to show the project results using images.
 
 ![Screenshot (90)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/1b343998-6843-4a98-a350-747e5f7afc22)
 
+![Screenshot (91)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/04918088-6cac-4e4c-a701-5bcbd43bce99)
+
+
 # Results Page
 
 ![Screenshot (93)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/6e5b3483-148d-4e06-97a3-546a14824b65)
-
-
-
-
-![Screenshot (91)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/04918088-6cac-4e4c-a701-5bcbd43bce99)
