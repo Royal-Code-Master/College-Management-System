@@ -136,7 +136,17 @@ else{
     </div>
   </div>
  </a>
- 
+
+<a href="./msg_admin.jsp" target="_blank">
+  	<div class="col text-center">
+    	<div class="card" id="card1">
+      		<div class="card-body">
+      			<i class="fa fa-comments fa-4x p-4" aria-hidden="true"></i>
+        		<h5 class="card-title">Messages</h5>
+      		</div>
+    	</div>
+  	</div>
+ </a>
 </div>
 </main>
 </body>
