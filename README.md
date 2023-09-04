@@ -66,7 +66,7 @@ CREATE TABLE results (
 
 # messages table
 
-CREATE TABLE user_data ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, user_email VARCHAR(30) NOT NULL, user_phone VARCHAR(12) NOT NULL, user_msg TEXT NOT NULL );
+CREATE TABLE messages ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, user_email VARCHAR(30) NOT NULL, user_phone VARCHAR(12) NOT NULL, user_msg TEXT NOT NULL );
 
 # Clone Project using Git CLI
 gh repo clone Royal-Code-Master/College-Management-System
