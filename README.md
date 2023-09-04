@@ -29,6 +29,8 @@ This application is developed using java with maven help with clean ui/ux with b
 
 4. results table
 
+5. . messages table
+
 
 # Admins Table
 CREATE TABLE admins (
@@ -62,6 +64,9 @@ CREATE TABLE results (
     PRIMARY KEY (roll)
 );
 
+# messages table
+
+CREATE TABLE user_data ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, user_email VARCHAR(30) NOT NULL, user_phone VARCHAR(12) NOT NULL, user_msg TEXT NOT NULL );
 
 # Clone Project using Git CLI
 gh repo clone Royal-Code-Master/College-Management-System
@@ -110,3 +115,12 @@ I want to show the project results using images.
 # Results Page
 
 ![Screenshot (93)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/6e5b3483-148d-4e06-97a3-546a14824b65)
+
+
+# messages page.
+
+![Screenshot 2023-09-04 102831](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/a56b0454-ccb5-444c-a95b-f15bb8a3aff5)
+
+![Screenshot (94)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/8bd028d0-b5ec-4b2e-bf53-df88b2011e69)
+
+
