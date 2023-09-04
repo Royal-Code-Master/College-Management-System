@@ -64,6 +64,13 @@ CREATE TABLE results (
     PRIMARY KEY (roll)
 );
 
+ALTER TABLE results
+ADD CONSTRAINT fk_results_student
+FOREIGN KEY (roll)
+REFERENCES student(roll)
+ON DELETE CASCADE;
+
+
 # messages table
 
 CREATE TABLE messages ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, user_email VARCHAR(30) NOT NULL, user_phone VARCHAR(12) NOT NULL, user_msg TEXT NOT NULL );
