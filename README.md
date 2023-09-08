@@ -86,7 +86,8 @@ I want to show the project results using images.
 
 # This is Home Page
 
-![Screenshot (83)](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/86e63782-bc1d-4981-92e4-5120a15945dc)
+![Screenshot 2023-09-08 110613](https://github.com/Royal-Code-Master/College-Management-System/assets/126596692/2c703508-5ac8-49e5-85c9-66a8dab2cbcf)
+
 
 
 # Admin Pages
